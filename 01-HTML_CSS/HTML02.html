@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML02</title>
+</head>
+<body>
+    <h1>웹사이트 레이아웃</h1>
+    <div>
+        <h3>박스 모델</h3>
+        <ul>
+            <li>
+                <strong>margin과 padding의 차이</strong>
+                <p>- .margin-left: border 바깥쪽에서 왼쪽에 여백을 만듦.</p>
+                <p>- .padding-left: border 안쪽에서 왼쪽에 여백을 만듦.</p>
+                <p>- top, right, bottom, leftdp 여백을 만들 수 있음.</p>
+                <p>- 공간이 여백을 포함한 크기로 변경되는 점 유의!</p>
+            </li>
+
+            <li>
+                <strong>상 우 하 좌 순서로 한 줄에 작성 가능!</strong>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Block 요소와 Inline 요소</h3>
+        <ul>
+            <li>
+                <strong>Block 요소의 특징</strong>
+                <p>- p태그가 대표적!</p>
+                <p>- 줄바꿈 현상이 나타남</p>
+                <p>- width/height 값 사용 가능 (공간 만들기 가능)</p>
+                <p>- margin과 padding 값 사용 가능 (상하 배치 작업 가능)</p>
+            </li>
+
+            <li>
+                <strong>Inline 요소의 특징</strong>
+                <p>- 줄바꿈 현상 없음</p>
+                <p>- width/height 값 적용 불가</p>
+                <p>- margin/padding/bottom 값 적용 불가</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>마진 병합 현상</h3>
+        <ul>
+            <li>
+                <strong>형제 지간의 마진 병합</strong>
+                <p>- margin-bottom과 bottom-top 중 숫자가 큰 값으로 적용</p>
+            </li>
+
+            <li>
+                <strong>부모 자식간의 마진 병합</strong>
+                <p>- 자식 뿐만 아니라 부모에도 영향을 미침</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>레이아웃에 영향을 미치는 속성</h3>
+        <ul>
+            <li>
+                <strong>display</strong>
+                <p>- Block과 Inline 요소의 성격을 바꿀 때 사용</p>
+            </li>
+
+            <li>
+                <strong>float</strong>
+                <p>- 선택된 요소를 왼쪽 끝 혹은 오른쪽 끝에 정렬시키고자 할 떄 사용.</p>
+                <p>- 이름 그대로 선택자를 띄워 새로운 레이어층을 만드는 것.</p>
+            </li>
+
+            <li>
+                <strong>clear</strong>
+                <p>- float에 대한 속성을 제어하고자 할 때 사용</p>
+            </li>
+
+            <li>
+                <strong>브라우저와 공간 사이의 공백 제거하기</strong>
+                <p>- html과 body 태그는 margin과 padding 값을 가지므로 초기화 해야함.</p>
+                <p>* <- 사용 가능!</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
